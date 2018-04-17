@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Page">
+  <meta name="keywords" content="HTML,CSS;Profile,Personal">
+  <meta name="author" content="Nico Ulrich">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="36072e">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="..\CSS\style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../MEDIA/favicon.png">
+  <script type="text/javascript" src="..\JS\clock.js"></script>
+  <script type="text/javascript" src="..\JS\weather.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Homepage...</title>
+</head>
+
+<body>
+  <div id="main">
+    <img id="Avatar" src="..\MEDIA\86518.png" alt="Avatar">
+    <h1 id="title">Nice1sG4min<a id="secret" href="./secret.html">g</a></h1>
+    <div id="clock"></div>
+    <div id="googlesearch">
+      <form id="search" method="get" action="http://www.google.com/search">
+        <input class="textbox" type="text" onfocus="this.value=''" name="q" placeholder="Nico™ Search" onEnter="send()" autocomplete="on"
+          maxlength="60">
+      </form>
+    </div>
+  </div>
+  <div id="notmain">
+    <nav>
+      <a href="https://steamcommunity.com/id/Nice1sG4ming" target="_blank">Steam</a>
+      <a href="https://twitter.com/Real_NiceGaming" target="_blank">Twitter</a>
+      <a href="https://github.com/Nice1sG4ming" target="_blank">Github</a>
+      <a href="mailto:nice1sg4ming@web.de" target="_top">Email me</a>
+    </nav>
+    <div id="weather">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/51d829d23/marienmunster/" data-label_1="Nico™" data-label_2="Weather"
+        data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="dark" data-basecolor="#00000000">Nico™ Weather</a>
+    </div>
+  </div>
+</body>
+
+</html>

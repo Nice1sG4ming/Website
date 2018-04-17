@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+#main {
+  height: 50vh;
+  background: #323232;
+  background: -moz-linear-gradient(top, #36072e, #0a0625);
+  background: -webkit-linear-gradient(top, #36072e, #0a0625);
+  background: linear-gradient(to bottom, #36072e, #0a0625);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Avatar {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40vh;
+  width: 15%;
+  height: auto;
+  pointer-events: none;
+  margin-bottom: 0.5rem;
+}
+
+#title {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #4d0f3b;
+}
+
+#secret {
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#clock {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+#googlesearch {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  ;
+}
+
+.textbox {
+  background-color: #ffffff;
+  height: 38px;
+  width: 350px;
+  vertical-align: top;
+  border: 1px solid #7c1143;
+  padding: 0 10px;
+  margin-top: 2rem;
+  box-shadow: 2px 2px 2px #7c1143;
+}
+
+#notmain {
+  height: 50vh;
+  background: -moz-linear-gradient(top, #0a0625, #101013);
+  background: -webkit-linear-gradient(top, #0a0625, #101013);
+  background: linear-gradient(to bottom, #0a0625, #101013);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+}
+
+nav a:hover {
+  background-color: #ffffff22;
+}
+
+#weather {
+  margin: 17rem 0;
+  overflow: hidden;
+}
+
+@media (max-width: 360px) {
+  nav {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
